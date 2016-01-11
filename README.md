@@ -23,7 +23,7 @@ Installation
 * For Nginx servers use proper location, for example
 ```
     location /2FAuthSteganography/ {
-        root   /home/www/semaster.name;
+        root   /var/www/yousite;
         index  index.html index.php;
         try_files $uri /2FAuthSteganography/index.php?$request_uri;
     }
