@@ -19,8 +19,15 @@ Installation
 * Setup DB 
 * Write settings in /engine/config.php
 * Make sure that the folder /uploads/2fa is writable
-* If you're using Apache, make sure you activate the URL rewriting module, for Nginx servers use
-
+* If you're using Apache, make sure you activate the URL rewriting module, 
+* For Nginx servers use proper location, for example
+```
+    location /2FAuthSteganography/ {
+        root   /home/www/semaster.name;
+        index  index.html index.php;
+        try_files $uri /2FAuthSteganography/index.php?$request_uri;
+    }
+```
 
 Least Significant Bit (LSB)
 ---------------------------
