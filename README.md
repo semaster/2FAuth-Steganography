@@ -9,7 +9,7 @@ Requirements
 ------------
 * PHP 5.4+
 * GDLib
-* ZLib
+* gettext support
 * PHP PDO Extension
 * Mysqli
 
@@ -18,6 +18,7 @@ Installation
 * Copy files from /web - to your web folder
 * Setup DB 
 * Write settings in /engine/config.php
+* Make sure that the folder /uploads/2fa is writable
 * If you're using Apache, make sure you activate the URL rewriting module, for Nginx servers use
 
 
