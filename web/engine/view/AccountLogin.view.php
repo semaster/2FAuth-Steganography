@@ -4,7 +4,7 @@
 
 
   <form class="form-signin" action="" method="post">
-   <h2 class="form-signin-heading">Please sign in</h2>
+   <h2 class="form-signin-heading"><?php echo _('Please sign in'); ?></h2>
    <label for="inputEmail" class="sr-only">Email address</label>
    <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address" required autofocus>
    <label for="password" class="sr-only">Password</label>
@@ -13,7 +13,7 @@
       <div class="g-recaptcha" data-sitekey="<?php echo $ReCaptchaSiteKey; ?>"></div>
         <script src='https://www.google.com/recaptcha/api.js'></script>
     <?php endif; ?>
-   <button class="btn btn-lg btn-primary btn-block" type="submit" name="signin">Sign in</button>
+   <button class="btn btn-lg btn-primary btn-block" type="submit" name="signin"><?php echo _('Sign in'); ?></button>
     <p class="help-block text-right"><a href="register"><?php echo _('Register'); ?></a></p>
   </form>
 

@@ -4,6 +4,7 @@
 This example demonstrates the two-factor authentication, where the second factor to authenticate is system    generated key. This key is embedded in a user image using the technique of steganography. 
 To pass 2 factor authentication the user needs load an image with embedded key.
 
+You can explore [live demo](http://semaster.name/2FAuthSteganography/) to check how it works.
 
 Requirements
 ------------
